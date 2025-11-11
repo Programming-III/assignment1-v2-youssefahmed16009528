@@ -4,7 +4,7 @@
 #include "Person.h"
 using namespace std;
 //#write Instructor class here
-class Instsructor :
+class Instsructor {
    string department;
    int experienceYears;
     public :
@@ -16,7 +16,7 @@ class Instsructor :
          Person::display();
          cout<<"Department: "<<department<<", Experience Years: "<<experienceYears<<endl;
         }
-
+};
 
 
 
