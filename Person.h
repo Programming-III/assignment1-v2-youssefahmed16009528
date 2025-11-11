@@ -16,6 +16,7 @@ class Person {
     void display(){
          cout<<"Name: "<<name<<", ID: "<<id<<endl;
     }
+};
 
 
 
