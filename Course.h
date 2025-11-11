@@ -32,7 +32,8 @@ class course{
          for(int i=0; i<currentStudents; i++){
              enrolledStudents[i]->display();
          }
-
+     }
+};
 
 
 
