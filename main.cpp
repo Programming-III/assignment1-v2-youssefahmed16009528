@@ -20,6 +20,7 @@ class Person {
     void display(){
          cout<<"Name: "<<name<<", ID: "<<id<<endl;
     }
+};
 
 
 
@@ -29,7 +30,7 @@ class Person {
 
 // ==================== Student Class Implementation ====================
 
- class Student :
+ class Student {
   int yearLevel;
   string major;
     public :
@@ -46,7 +47,7 @@ class Person {
 
 
 // ==================== Instructor Class Implementation ====================
-class Instsructor :
+class Instsructor {
    string department;
    int experienceYears;
     public :
