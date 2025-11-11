@@ -5,7 +5,7 @@
 #include <string>
 #using namespace std;
 //#write student class here
- class Student :
+ class Student {
   int yearLevel;
   string major;
     public :
@@ -17,6 +17,7 @@
          Person::display();
          cout<<"Major: "<<major<<", Year Level: "<<yearLevel<<endl;
      }
+};
 
 
 
